@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace le09
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string nome;
+            string idade;
+            string telefone;
+            string email;
+            string objetivos;
+            string experiência;
+            string escolaridade;
+            string idiomas;
+            string cursos;
+
+            Console.WriteLine("digite seu nome completo:");
+            nome = Console.ReadLine();
+            Console.WriteLine("digite sua idade:");
+            idade = Console.ReadLine();
+            Console.WriteLine("digite seu telefone:");
+            telefone = Console.ReadLine();
+            Console.WriteLine("digite seu email:");
+            email = Console.ReadLine();
+            Console.WriteLine("digite seus objetivos profissionais:");
+            objetivos = Console.ReadLine();
+            Console.WriteLine("digite sua experiência profissional:");
+            experiência = Console.ReadLine();
+            Console.WriteLine("digite sua escolaridade:");
+            escolaridade = Console.ReadLine();
+            Console.WriteLine("digite quais idiomas você tem conhecimento:");
+            idiomas = Console.ReadLine(); 
+            Console.WriteLine("digite quais cursos você ja fez:");
+            cursos = Console.ReadLine();
+            Console.ReadKey();
+
+        }
+    }
+}
